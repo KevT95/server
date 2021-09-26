@@ -47,9 +47,9 @@ function LED1_Off(){
     // Once a connection has been made, make a subscription and send a message.
     console.log("Conectado...");
 	
-    client.subscribe("kbtz14k@gmail.com/test1");
+    client.subscribe("kbtz14k@gmail.com/test");//topico al que estoy suscrito 
     message = new Paho.MQTT.Message("hola desde la web");
-    message.destinationName = "kbtz14k@gmail.com/test";
+    message.destinationName = "kbtz14k@gmail.com/test1";//topico del mensaje que recibo 
     client.send(message);
 	
   }
