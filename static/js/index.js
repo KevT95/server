@@ -82,8 +82,8 @@ function LED1_Off(){
 	  if(nv>=3&&but1=="h1"){
 		  document.getElementById("Historial").innerHTML=s1[2];
 	  }
-	   if(nv>=3&&but2=="h2"){
-		  document.getElementById("Historial1").innerHTML=s1[2];
+	   if(nv>=4&&but2=="h2"){
+		  document.getElementById("Historial1").innerHTML=s1[3];
 	  }
   }
   
