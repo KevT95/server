@@ -76,14 +76,14 @@ function LED1_Off(){
 	 // document.getElementById("sensor").innerHTML=message.payloadString;
 	  sms=message.payloadString;
 	  s1=sms.split(";");
-	  nv=s1.length;
+	  //nv=s1.length;
 	  document.getElementById("sensor").innerHTML=s1[0];
 	  document.getElementById("sensor1").innerHTML=s1[1];
-	  if(nv>=3&&but1=="h1"){
-		  document.getElementById("Historial").innerHTML=s1[2];
-	  }
-	   if(nv>=4&&but2=="h2"){
-		  document.getElementById("Historial1").innerHTML=s1[3];
-	  }
+	  //if(nv>=3&&but1=="h1"){
+	//	  document.getElementById("Historial").innerHTML=s1[2];
+	  //}
+	   //if(nv>=4&&but2=="h2"){
+		//  document.getElementById("Historial1").innerHTML=s1[3];
+	  //}
   }
   
